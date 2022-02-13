@@ -1,0 +1,94 @@
+body{
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    padding: 5%;
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        button{
+            width: auto;
+        }
+    }
+    button{
+        height: 50px;
+        width: 70px;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    .letters{
+        text-align: center;
+        letter-spacing: 5px;
+    }
+    .withIMG{
+        margin: auto;
+        img{
+            border-radius: 5px;
+        }
+    }
+
+    .chat{
+        background-color: white;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: scroll;
+        height: 100px;
+    }
+    .message{
+        border: black 1px solid;
+    }
+    .error{
+        color: red;
+    }
+    .game{
+        display: grid;
+        justify-content: center;
+        input{
+            width: 90%;
+        }
+        .panel{
+            display: grid;
+            justify-content: space-around;
+            grid-template-columns: repeat(7, 40px);
+            button{
+                height: auto;
+                width: 35px;
+            }
+        }
+        .cofnij{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+.games{
+    border: black 2px solid;
+    margin: 5px;
+    display: flex;
+    justify-content:space-evenly;
+    div{
+        margin: auto;
+        display: flex;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+}
+

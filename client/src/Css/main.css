@@ -1,0 +1,148 @@
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  background-color: blanchedalmond;
+  margin-top: 10px;
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main nav button {
+  width: auto;
+}
+
+.main button {
+  height: 50px;
+  width: 70px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.main button a {
+  text-decoration: none;
+  color: black;
+}
+
+.main button:hover {
+  cursor: pointer;
+}
+
+.main .letters {
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.main .withIMG {
+  margin: auto;
+}
+
+.main .withIMG img {
+  border-radius: 5px;
+}
+
+.main .chat {
+  background-color: white;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  overflow: scroll;
+  height: 100px;
+}
+
+.main .message {
+  border: black 1px solid;
+}
+
+.main .error {
+  color: red;
+}
+
+.main .game {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .game input {
+  width: 90%;
+}
+
+.main .game .panel {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-grid-columns: (40px)[7];
+      grid-template-columns: repeat(7, 40px);
+}
+
+.main .game .panel button {
+  height: auto;
+  width: 35px;
+}
+
+.main .game .cofnij {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.games {
+  border: black 2px solid;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.games div {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  letter-spacing: 5px;
+}
+/*# sourceMappingURL=main.css.map */
